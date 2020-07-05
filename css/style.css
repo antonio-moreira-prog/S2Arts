@@ -4,7 +4,7 @@
 }
 body{
     font-family:Verdana, 'Times New Roman', Times, serif;
-    background: #fff url(/imgs/top3.jpeg) repeat-x top;
+    background: url(../imgs/top3.jpeg) repeat-x ;
     max-width: 1200px;
     display: block;
     margin-left: auto;
@@ -13,14 +13,21 @@ body{
 html {
     padding: 10px;
 }
-body{
-    background: url(../imgs/top3.jpeg) repeat-x ;
+.logo{
+    width: 161px;
+    height: 161px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url(../imgs/logocora.png) no-repeat center;
+    text-indent: -3000px;
 }
 #top{
-    height: 150px;
-    /*background: rgb(141, 7, 7);*/
-    padding-top: 190px;
+    height: 100px;
+    padding-top: 20px;
 }
+
 .products-grid {
     display: grid;
     grid-gap: 15px;
@@ -56,10 +63,10 @@ body{
     border: 3px solid #333;
     list-style: none;
     padding: 5px;
-    min-height: 250px;
+    min-height: 300px;
 }
 .products-grid-item > :not(:last-child) {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 /*******************************/
 button.button-whatsapp{

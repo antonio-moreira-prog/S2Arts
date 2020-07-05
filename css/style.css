@@ -11,7 +11,7 @@ body{
     margin-right: auto;
 }
 html {
-    padding: 15px;
+    padding: 10px;
 }
 h1.title-Top{
     color: #fff;
@@ -52,13 +52,13 @@ h1.title-Top{
 .products-grid {
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 0.5fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .products-grid-item {
     border: 3px solid #333;
     list-style: none;
     padding: 5px;
-    min-height: 300px;
+    min-height: 250px;
 }
 .products-grid-item > :not(:last-child) {
     margin-bottom: 5px;

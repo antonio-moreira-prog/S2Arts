@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, 'Times New Roman', Times, serif;
     background: rgb(243, 176, 176);
     max-width: 1200px;
     display: block;
@@ -62,4 +62,17 @@ h1.title-Top{
 }
 .products-grid-item > :not(:last-child) {
     margin-bottom: 5px;
+}
+/*******************************/
+button.button-whatsapp{
+    background: red;
+    border:1px solid black;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
 }

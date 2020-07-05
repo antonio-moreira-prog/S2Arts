@@ -4,7 +4,7 @@
 }
 body{
     font-family:Verdana, 'Times New Roman', Times, serif;
-    background: rgb(243, 176, 176);
+    background: #fff url(/imgs/top3.jpeg) repeat-x top;
     max-width: 1200px;
     display: block;
     margin-left: auto;
@@ -13,15 +13,13 @@ body{
 html {
     padding: 10px;
 }
-h1.title-Top{
-    color: #fff;
-    text-align: center;
-    margin-top: 35px;
+body{
+    background: url(../imgs/top3.jpeg) repeat-x ;
 }
 #top{
     height: 150px;
-    background: rgb(141, 7, 7);
-    padding-top: 15px;
+    /*background: rgb(141, 7, 7);*/
+    padding-top: 190px;
 }
 .products-grid {
     display: grid;
@@ -61,7 +59,7 @@ h1.title-Top{
     min-height: 250px;
 }
 .products-grid-item > :not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 /*******************************/
 button.button-whatsapp{

@@ -4,7 +4,7 @@
 }
 body{
     font-family:Verdana, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    background-image: linear-gradient(to top, #5ee7df, #b490ca 100%);
     max-width: 1200px;
     display: block;
     margin-left: auto;

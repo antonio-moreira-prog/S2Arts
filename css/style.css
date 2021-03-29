@@ -1,52 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    font-family:Verdana, 'Times New Roman', Times, serif;
+    font-family:'Lexend', Tahoma, sans-serif;
     background-image: linear-gradient(to top, #5ee7df, #b490ca 100%);
-    max-width: 1200px;
+    background-attachment: fixed;
+    max-width: 75em;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 html {
-    padding: 10px;
+    padding: 0.6em;
 }
-.logo{
-    width: 161px;
-    height: 161px;
-    margin-top: 40px;
+
+img.logo{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
-    background: url(../imgs/logocora.png) no-repeat center;
-    text-indent: -3000px;
 }
-
-
 .products-grid {
-    margin: 10px;
+    margin: 0.62em;
     display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 0.9em;
+    grid-template-columns: repeat(auto-fill, minmax(15.5em, 1fr));
 }
 .products-grid{
-    padding: 15px;
+    padding: 0.9em;
 }
 .products-grid > li{
-    border: 2px solid #333;
-    line-height: 30px;
+    line-height: 1.8em;
     text-align: center;
 }
 /*********************************/
+.products-grid-item__price{
+    font-size: 20px;
+    color: #60E1DE;
+    font-weight: 600;
+}
 .products-grid-item {
     display: -webkit-box;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
-    background: #fff;
+    flex-direction: column;
+    background: #FFFFFF;
 }
 .products-grid-item__description {
     -webkit-box-flex: 1;
@@ -54,28 +54,23 @@ html {
 }
 .products-grid {
     display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fill, minmax(15.5em, 1fr));
 }
 .products-grid-item {
-    border: 3px solid #333;
+    border-radius: 10px;
     list-style: none;
-    padding: 5px;
-    min-height: 300px;
+    padding: 0.3em;
+    min-height: 18.7em;
+    box-shadow: 1px 2px 5px #000000;
 }
 .products-grid-item > :not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 0.3em;
 }
 /*******************************/
 button.button-whatsapp{
-    background: red;
-    border:1px solid black;
-    border-radius:4px;
     display:inline-block;
     cursor:pointer;
-    font-family:Verdana, 'Times New Roman', Times, serif;
-    font-weight:bold;
-    font-size:13px;
-    padding:6px 10px;
+    padding:0.3em 0.6em;
     text-decoration:none;
 }
